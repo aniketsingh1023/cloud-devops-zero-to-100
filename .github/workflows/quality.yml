@@ -25,6 +25,7 @@ jobs:
         run: python -m unittest discover -s labs/build-break-fix -p 'test_*.py' -v
   container:
     runs-on: ubuntu-24.04
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - name: Build the local image
@@ -35,9 +36,9 @@ jobs:
           set -euo pipefail
           trap 'docker rm -f learning-lab >/dev/null 2>&1 || true' EXIT
           docker run -d --name learning-lab -p 127.0.0.1:8080:8080 cloud-devops-lab
-          curl --retry 20 --retry-connrefused --retry-delay 1 --fail http://127.0.0.1:8080/readyz
+          curl --retry 20 --retry-all-errors --retry-delay 1 --retry-max-time 45 --max-time 3 --fail http://127.0.0.1:8080/readyz
           docker rm -f learning-lab
           docker run -d --name learning-lab -e FAIL_MODE=1 -p 127.0.0.1:8080:8080 cloud-devops-lab
-          curl --retry 20 --retry-connrefused --retry-delay 1 --fail http://127.0.0.1:8080/healthz
+          curl --retry 20 --retry-all-errors --retry-delay 1 --retry-max-time 45 --max-time 3 --fail http://127.0.0.1:8080/healthz
           test "$(curl -s -o /dev/null -w '%{http_code}' http://127.0.0.1:8080/readyz)" = 503
           test "$(curl -s -o /dev/null -w '%{http_code}' http://127.0.0.1:8080/)" = 503
