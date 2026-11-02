@@ -1,0 +1,17 @@
+name: Broken link or correction
+description: Help keep the learning path accurate and usable.
+title: "[Correction] "
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Affected page or resource URL
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What needs correcting?
+      description: Include evidence and a replacement source if available. Do not include credentials or private information.
+    validations:
+      required: true

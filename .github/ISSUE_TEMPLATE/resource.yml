@@ -1,0 +1,32 @@
+name: Suggest a learning resource
+description: Add a resource with a clear learning purpose and a practical task.
+title: "[Resource] "
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Original source URL
+      description: Canonical HTTPS link to the original author or project.
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: Learning value and category
+      description: What gap does it fill? Who is it for? Check for duplicates first.
+    validations:
+      required: true
+  - type: textarea
+    id: practice
+    attributes:
+      label: Practical next step
+      description: Give a concrete exercise someone can do after reading.
+    validations:
+      required: true
+  - type: textarea
+    id: access
+    attributes:
+      label: Access, cost, license and affiliation
+      description: Note accounts, payments, cloud billing, reuse restrictions and any connection to the author.
+    validations:
+      required: true

@@ -1,0 +1,62 @@
+{
+  "foundations": {
+    "title": "01 · Foundations, Linux & networking",
+    "intro": "Start here. Understand processes, files, permissions, DNS, HTTP and the shell before adding cloud services."
+  },
+  "git-and-code": {
+    "title": "02 · Git, Python & automation",
+    "intro": "Learn enough programming to build and diagnose systems. Start with one language and one version-control workflow."
+  },
+  "cloud": {
+    "title": "03 · Cloud: choose one provider",
+    "intro": "Learn IAM, networking, compute, storage, databases, reliability and billing on one provider first. Reading is often free; accounts, labs and deployed resources may cost money."
+  },
+  "containers": {
+    "title": "04 · Containers & Kubernetes",
+    "intro": "Learn images and container networking first. Use a local cluster before paying for a managed Kubernetes service."
+  },
+  "infrastructure-as-code": {
+    "title": "05 · Infrastructure as code",
+    "intro": "Make changes reviewable and reproducible. Treat state, credentials and teardown as part of the design."
+  },
+  "delivery": {
+    "title": "06 · CI/CD, GitOps & releases",
+    "intro": "Build a small pipeline, deliberately break it, then add the checks that would have caught the failure."
+  },
+  "observability-and-sre": {
+    "title": "07 · Observability, SRE & incidents",
+    "intro": "Measure user-visible behavior, investigate failures and practice recovery. Start with logs and a useful health check."
+  },
+  "security-and-cost": {
+    "title": "08 · Security, supply chain & cost",
+    "intro": "Practice least privilege, secret hygiene and cost awareness throughout the roadmap."
+  },
+  "architecture": {
+    "title": "09 · System design & data",
+    "intro": "Understand caching, queues, databases and failure modes by following a request through a real system."
+  },
+  "engineering-blogs": {
+    "title": "10 · Engineering blogs worth reading",
+    "intro": "The video names Netflix, Google and Cloudflare. The other publications below extend that reading list. Read one post actively and reproduce a small idea."
+  },
+  "outage-stories": {
+    "title": "11 · Outage stories & postmortems",
+    "intro": "Start with the Cloudflare report shown in the video. These are historical case studies, not descriptions of the services’ current health."
+  },
+  "papers": {
+    "title": "12 · Papers: systems first, AI optional",
+    "intro": "Read for the problem, assumptions, mechanism, evidence and limits. The video mentions AI and transformers as examples; AI is an optional extension, not a cloud prerequisite."
+  },
+  "open-source-and-people": {
+    "title": "13 · Open source, people & practice collections",
+    "intro": "Follow work and explanations, then read source code and contribute a scoped improvement. These links do not imply endorsement by the people or projects listed."
+  },
+  "community-projects": {
+    "title": "14 · Community projects from my stars",
+    "intro": "Selected implementation examples from aniketsingh1023’s public stars. Read the prerequisites, account-specific values, security choices and cleanup steps before using any example. These are learning references, not audited production templates."
+  },
+  "ai-and-mlops": {
+    "title": "15 · Optional AI & MLOps extension",
+    "intro": "The video mentions AI as a research-reading example. These starred resources are an optional extension after you can explain the underlying application, container, identity and delivery workflow. API usage, cloud deployment and compute may cost money."
+  }
+}

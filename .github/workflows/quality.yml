@@ -1,0 +1,43 @@
+name: Quality
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  content-and-lab:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ['3.11', '3.13']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Validate catalog and generated pages
+        run: python scripts/catalog.py check
+      - name: Check local document links and roadmap
+        run: python scripts/check_docs.py
+      - name: Exercise failure and recovery behavior
+        run: python -m unittest discover -s labs/build-break-fix -p 'test_*.py' -v
+  container:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build the local image
+        run: docker build -t cloud-devops-lab labs/build-break-fix
+      - name: Check healthy and failed readiness over HTTP
+        shell: bash
+        run: |
+          set -euo pipefail
+          trap 'docker rm -f learning-lab >/dev/null 2>&1 || true' EXIT
+          docker run -d --name learning-lab -p 127.0.0.1:8080:8080 cloud-devops-lab
+          curl --retry 20 --retry-connrefused --retry-delay 1 --fail http://127.0.0.1:8080/readyz
+          docker rm -f learning-lab
+          docker run -d --name learning-lab -e FAIL_MODE=1 -p 127.0.0.1:8080:8080 cloud-devops-lab
+          curl --retry 20 --retry-connrefused --retry-delay 1 --fail http://127.0.0.1:8080/healthz
+          test "$(curl -s -o /dev/null -w '%{http_code}' http://127.0.0.1:8080/readyz)" = 503
+          test "$(curl -s -o /dev/null -w '%{http_code}' http://127.0.0.1:8080/)" = 503

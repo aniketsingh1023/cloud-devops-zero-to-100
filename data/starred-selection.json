@@ -1,0 +1,183 @@
+{
+  "account": "aniketsingh1023",
+  "review_date": "2026-11-03",
+  "public_stars_reviewed": 62,
+  "selection": [
+    {
+      "repository": "NotHarshhaa/devops-cheatsheet",
+      "catalog_id": "open-source-and-people-15",
+      "category": "open-source-and-people",
+      "default_branch": "master",
+      "archived": false,
+      "license": "GPL-2.0"
+    },
+    {
+      "repository": "NotHarshhaa/devops-tools",
+      "catalog_id": "open-source-and-people-16",
+      "category": "open-source-and-people",
+      "default_branch": "master",
+      "archived": false,
+      "license": null
+    },
+    {
+      "repository": "NotHarshhaa/DevOps-Interview-Questions",
+      "catalog_id": "open-source-and-people-17",
+      "category": "open-source-and-people",
+      "default_branch": "master",
+      "archived": false,
+      "license": null
+    },
+    {
+      "repository": "techiescamp/devops-projects",
+      "catalog_id": "community-projects-01",
+      "category": "community-projects",
+      "default_branch": "main",
+      "archived": false,
+      "license": null
+    },
+    {
+      "repository": "prashantgohel321/DevOps-Project-Two-Tier-Flask-App",
+      "catalog_id": "community-projects-02",
+      "category": "community-projects",
+      "default_branch": "main",
+      "archived": false,
+      "license": null
+    },
+    {
+      "repository": "LondheShubham153/three-tier-eks-iac",
+      "catalog_id": "community-projects-03",
+      "category": "community-projects",
+      "default_branch": "main",
+      "archived": false,
+      "license": null
+    },
+    {
+      "repository": "piyushsachdeva/Terraform-Full-Course-Azure",
+      "catalog_id": "infrastructure-as-code-09",
+      "category": "infrastructure-as-code",
+      "default_branch": "main",
+      "archived": false,
+      "license": null
+    },
+    {
+      "repository": "piyushsachdeva/Terraform-Full-Course-Aws",
+      "catalog_id": "infrastructure-as-code-10",
+      "category": "infrastructure-as-code",
+      "default_branch": "main",
+      "archived": false,
+      "license": "MIT"
+    },
+    {
+      "repository": "palakbhawsar98/Terraform-Notes",
+      "catalog_id": "infrastructure-as-code-11",
+      "category": "infrastructure-as-code",
+      "default_branch": "main",
+      "archived": false,
+      "license": null
+    },
+    {
+      "repository": "LondheShubham153/kubestarter",
+      "catalog_id": "containers-12",
+      "category": "containers",
+      "default_branch": "main",
+      "archived": false,
+      "license": null
+    },
+    {
+      "repository": "ChimbuChinnadurai/gcp-keda-gke-event-driven-autoscaling-demo",
+      "catalog_id": "community-projects-04",
+      "category": "community-projects",
+      "default_branch": "main",
+      "archived": false,
+      "license": null
+    },
+    {
+      "repository": "iam-veeramalla/ai-assisted-devops",
+      "catalog_id": "ai-and-mlops-01",
+      "category": "ai-and-mlops",
+      "default_branch": "main",
+      "archived": false,
+      "license": "Apache-2.0"
+    },
+    {
+      "repository": "iam-veeramalla/first-mlops-project",
+      "catalog_id": "ai-and-mlops-02",
+      "category": "ai-and-mlops",
+      "default_branch": "main",
+      "archived": false,
+      "license": "Apache-2.0"
+    },
+    {
+      "repository": "meshery/meshery",
+      "catalog_id": "containers-13",
+      "category": "containers",
+      "default_branch": "master",
+      "archived": false,
+      "license": "Apache-2.0"
+    },
+    {
+      "repository": "litmuschaos/litmus",
+      "catalog_id": "observability-and-sre-10",
+      "category": "observability-and-sre",
+      "default_branch": "master",
+      "archived": false,
+      "license": "Apache-2.0"
+    },
+    {
+      "repository": "ashishps1/awesome-system-design-resources",
+      "catalog_id": "architecture-08",
+      "category": "architecture",
+      "default_branch": "main",
+      "archived": false,
+      "license": "GPL-3.0"
+    },
+    {
+      "repository": "subhashchy/The-Accidental-CTO",
+      "catalog_id": "architecture-09",
+      "category": "architecture",
+      "default_branch": "main",
+      "archived": false,
+      "license": null
+    },
+    {
+      "repository": "pinojs/pino",
+      "catalog_id": "observability-and-sre-11",
+      "category": "observability-and-sre",
+      "default_branch": "main",
+      "archived": false,
+      "license": "MIT"
+    },
+    {
+      "repository": "komodorio/helm-dashboard",
+      "catalog_id": "containers-14",
+      "category": "containers",
+      "default_branch": "main",
+      "archived": false,
+      "license": "Apache-2.0"
+    },
+    {
+      "repository": "aishwaryanr/awesome-generative-ai-guide",
+      "catalog_id": "ai-and-mlops-03",
+      "category": "ai-and-mlops",
+      "default_branch": "main",
+      "archived": false,
+      "license": "MIT"
+    },
+    {
+      "repository": "chatwoot/chatwoot",
+      "catalog_id": "open-source-and-people-18",
+      "category": "open-source-and-people",
+      "default_branch": "develop",
+      "archived": false,
+      "license": "NOASSERTION"
+    },
+    {
+      "repository": "apache/spark",
+      "catalog_id": "architecture-10",
+      "category": "architecture",
+      "default_branch": "master",
+      "archived": false,
+      "license": "Apache-2.0"
+    }
+  ]
+}

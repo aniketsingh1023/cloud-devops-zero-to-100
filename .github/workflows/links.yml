@@ -1,0 +1,25 @@
+name: Resource links
+on:
+  schedule:
+    - cron: '17 4 * * 1'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Check source reachability
+        run: python scripts/check_links.py --output link-report.json
+      - name: Save full report including manual-review responses
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: resource-link-report
+          path: link-report.json
+          retention-days: 30

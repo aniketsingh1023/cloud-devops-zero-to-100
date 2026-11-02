@@ -1,0 +1,1014 @@
+{
+  "checked_at": "2026-11-02T19:17:45.418780+00:00",
+  "note": "Reachability only. HTTP 200 does not establish editorial quality, free access or lack of a soft 404.",
+  "results": [
+    {
+      "id": "foundations-01",
+      "url": "https://missing.csail.mit.edu/",
+      "status": 200,
+      "final_url": "https://missing.csail.mit.edu/",
+      "outcome": "ok"
+    },
+    {
+      "id": "foundations-02",
+      "url": "https://labex.io/linuxjourney",
+      "status": 403,
+      "outcome": "review",
+      "detail": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "foundations-03",
+      "url": "https://www.kernel.org/doc/man-pages/",
+      "status": 200,
+      "final_url": "https://www.kernel.org/doc/man-pages/",
+      "outcome": "ok"
+    },
+    {
+      "id": "foundations-04",
+      "url": "https://www.gnu.org/software/bash/manual/",
+      "status": 200,
+      "final_url": "https://www.gnu.org/software/bash/manual/",
+      "outcome": "ok"
+    },
+    {
+      "id": "foundations-05",
+      "url": "https://linuxcommand.org/tlcl.php",
+      "status": 200,
+      "final_url": "https://linuxcommand.org/tlcl.php",
+      "outcome": "ok"
+    },
+    {
+      "id": "foundations-06",
+      "url": "https://beej.us/guide/bgnet/",
+      "status": 200,
+      "final_url": "https://beej.us/guide/bgnet/",
+      "outcome": "ok"
+    },
+    {
+      "id": "foundations-07",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Overview",
+      "status": 200,
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Overview",
+      "outcome": "ok"
+    },
+    {
+      "id": "foundations-08",
+      "url": "https://www.cloudflare.com/learning/dns/what-is-dns/",
+      "status": 403,
+      "outcome": "review",
+      "detail": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "foundations-09",
+      "url": "https://www.practicalnetworking.net/",
+      "status": 200,
+      "final_url": "https://www.practicalnetworking.net/",
+      "outcome": "ok"
+    },
+    {
+      "id": "foundations-10",
+      "url": "https://overthewire.org/wargames/bandit/",
+      "status": 200,
+      "final_url": "https://overthewire.org/wargames/bandit/",
+      "outcome": "ok"
+    },
+    {
+      "id": "git-and-code-01",
+      "url": "https://git-scm.com/book/en/v2",
+      "status": 200,
+      "final_url": "https://git-scm.com/book/en/v2",
+      "outcome": "ok"
+    },
+    {
+      "id": "git-and-code-02",
+      "url": "https://skills.github.com/",
+      "status": 200,
+      "final_url": "https://skills.github.com/",
+      "outcome": "ok"
+    },
+    {
+      "id": "git-and-code-03",
+      "url": "https://learngitbranching.js.org/",
+      "status": 200,
+      "final_url": "https://learngitbranching.js.org/",
+      "outcome": "ok"
+    },
+    {
+      "id": "git-and-code-04",
+      "url": "https://docs.python.org/3/tutorial/",
+      "status": 200,
+      "final_url": "https://docs.python.org/3/tutorial/",
+      "outcome": "ok"
+    },
+    {
+      "id": "git-and-code-05",
+      "url": "https://automatetheboringstuff.com/",
+      "status": 200,
+      "final_url": "https://automatetheboringstuff.com/",
+      "outcome": "ok"
+    },
+    {
+      "id": "git-and-code-06",
+      "url": "https://www.shellcheck.net/",
+      "status": 200,
+      "final_url": "https://www.shellcheck.net/",
+      "outcome": "ok"
+    },
+    {
+      "id": "git-and-code-07",
+      "url": "https://google.github.io/styleguide/shellguide.html",
+      "status": 200,
+      "final_url": "https://google.github.io/styleguide/shellguide.html",
+      "outcome": "ok"
+    },
+    {
+      "id": "cloud-01",
+      "url": "https://aws.amazon.com/getting-started/",
+      "status": 200,
+      "final_url": "https://aws.amazon.com/getting-started/",
+      "outcome": "ok"
+    },
+    {
+      "id": "cloud-02",
+      "url": "https://skillbuilder.aws/",
+      "status": 200,
+      "final_url": "https://skillbuilder.aws/",
+      "outcome": "ok"
+    },
+    {
+      "id": "cloud-03",
+      "url": "https://workshops.aws/",
+      "status": 200,
+      "final_url": "https://builder.aws.com/build/workshops?trk=265ae1c7-2dfc-44c6-bc73-a4d991b8bd7f&sc_channel=el",
+      "outcome": "ok"
+    },
+    {
+      "id": "cloud-04",
+      "url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html",
+      "status": 200,
+      "final_url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html",
+      "outcome": "ok"
+    },
+    {
+      "id": "cloud-05",
+      "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html",
+      "status": 200,
+      "final_url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html",
+      "outcome": "ok"
+    },
+    {
+      "id": "cloud-06",
+      "url": "https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html",
+      "status": 200,
+      "final_url": "https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html",
+      "outcome": "ok"
+    },
+    {
+      "id": "cloud-07",
+      "url": "https://learn.microsoft.com/en-us/training/azure/",
+      "status": 200,
+      "final_url": "https://learn.microsoft.com/en-us/training/azure/",
+      "outcome": "ok"
+    },
+    {
+      "id": "cloud-08",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/",
+      "status": 200,
+      "final_url": "https://learn.microsoft.com/en-us/azure/architecture/",
+      "outcome": "ok"
+    },
+    {
+      "id": "cloud-09",
+      "url": "https://learn.microsoft.com/en-us/azure/well-architected/",
+      "status": 200,
+      "final_url": "https://learn.microsoft.com/en-us/azure/well-architected/",
+      "outcome": "ok"
+    },
+    {
+      "id": "cloud-10",
+      "url": "https://cloud.google.com/learn/training",
+      "status": 200,
+      "final_url": "https://cloud.google.com/learn/training",
+      "outcome": "ok"
+    },
+    {
+      "id": "cloud-11",
+      "url": "https://docs.cloud.google.com/architecture",
+      "status": 200,
+      "final_url": "https://docs.cloud.google.com/architecture",
+      "outcome": "ok"
+    },
+    {
+      "id": "cloud-12",
+      "url": "https://www.skills.google/catalog",
+      "status": 200,
+      "final_url": "https://www.skills.google/catalog",
+      "outcome": "ok"
+    },
+    {
+      "id": "cloud-13",
+      "url": "https://cloudresumechallenge.dev/",
+      "status": 200,
+      "final_url": "https://cloudresumechallenge.dev/",
+      "outcome": "ok"
+    },
+    {
+      "id": "cloud-14",
+      "url": "https://docs.localstack.cloud/",
+      "status": 200,
+      "final_url": "https://docs.localstack.cloud/",
+      "outcome": "ok"
+    },
+    {
+      "id": "containers-01",
+      "url": "https://docs.docker.com/get-started/",
+      "status": 200,
+      "final_url": "https://docs.docker.com/get-started/",
+      "outcome": "ok"
+    },
+    {
+      "id": "containers-02",
+      "url": "https://docs.docker.com/compose/",
+      "status": 200,
+      "final_url": "https://docs.docker.com/compose/",
+      "outcome": "ok"
+    },
+    {
+      "id": "containers-03",
+      "url": "https://docs.docker.com/reference/dockerfile/",
+      "status": 200,
+      "final_url": "https://docs.docker.com/reference/dockerfile/",
+      "outcome": "ok"
+    },
+    {
+      "id": "containers-04",
+      "url": "https://kubernetes.io/docs/concepts/",
+      "status": 200,
+      "final_url": "https://kubernetes.io/docs/concepts/",
+      "outcome": "ok"
+    },
+    {
+      "id": "containers-05",
+      "url": "https://kubernetes.io/docs/tutorials/",
+      "status": 200,
+      "final_url": "https://kubernetes.io/docs/tutorials/",
+      "outcome": "ok"
+    },
+    {
+      "id": "containers-06",
+      "url": "https://kind.sigs.k8s.io/",
+      "status": 200,
+      "final_url": "https://kind.sigs.k8s.io/",
+      "outcome": "ok"
+    },
+    {
+      "id": "containers-07",
+      "url": "https://minikube.sigs.k8s.io/docs/",
+      "status": 200,
+      "final_url": "https://minikube.sigs.k8s.io/docs/",
+      "outcome": "ok"
+    },
+    {
+      "id": "containers-08",
+      "url": "https://helm.sh/docs/",
+      "status": 200,
+      "final_url": "https://helm.sh/docs/",
+      "outcome": "ok"
+    },
+    {
+      "id": "containers-09",
+      "url": "https://github.com/kelseyhightower/kubernetes-the-hard-way",
+      "status": 200,
+      "final_url": "https://github.com/kelseyhightower/kubernetes-the-hard-way",
+      "outcome": "ok"
+    },
+    {
+      "id": "containers-10",
+      "url": "https://github.com/kubernetes/kubernetes",
+      "status": 200,
+      "final_url": "https://github.com/kubernetes/kubernetes",
+      "outcome": "ok"
+    },
+    {
+      "id": "containers-11",
+      "url": "https://www.kubernetes.dev/docs/onboarding/",
+      "status": 200,
+      "final_url": "https://www.kubernetes.dev/docs/onboarding/",
+      "outcome": "ok"
+    },
+    {
+      "id": "infrastructure-as-code-01",
+      "url": "https://developer.hashicorp.com/terraform/tutorials",
+      "status": 200,
+      "final_url": "https://developer.hashicorp.com/terraform/tutorials",
+      "outcome": "ok"
+    },
+    {
+      "id": "infrastructure-as-code-02",
+      "url": "https://developer.hashicorp.com/terraform/language",
+      "status": 200,
+      "final_url": "https://developer.hashicorp.com/terraform/language",
+      "outcome": "ok"
+    },
+    {
+      "id": "infrastructure-as-code-03",
+      "url": "https://opentofu.org/docs/intro/",
+      "status": 200,
+      "final_url": "https://opentofu.org/docs/intro/",
+      "outcome": "ok"
+    },
+    {
+      "id": "infrastructure-as-code-04",
+      "url": "https://github.com/opentofu/opentofu",
+      "status": 200,
+      "final_url": "https://github.com/opentofu/opentofu",
+      "outcome": "ok"
+    },
+    {
+      "id": "infrastructure-as-code-05",
+      "url": "https://docs.ansible.com/projects/ansible/latest/getting_started/index.html",
+      "status": 200,
+      "final_url": "https://docs.ansible.com/projects/ansible/latest/getting_started/index.html",
+      "outcome": "ok"
+    },
+    {
+      "id": "infrastructure-as-code-06",
+      "url": "https://www.pulumi.com/dev/tutorials/",
+      "status": 200,
+      "final_url": "https://www.pulumi.com/dev/tutorials/",
+      "outcome": "ok"
+    },
+    {
+      "id": "infrastructure-as-code-07",
+      "url": "https://github.com/terraform-linters/tflint",
+      "status": 200,
+      "final_url": "https://github.com/terraform-linters/tflint",
+      "outcome": "ok"
+    },
+    {
+      "id": "infrastructure-as-code-08",
+      "url": "https://github.com/bridgecrewio/checkov",
+      "status": 200,
+      "final_url": "https://github.com/bridgecrewio/checkov",
+      "outcome": "ok"
+    },
+    {
+      "id": "delivery-01",
+      "url": "https://docs.github.com/en/actions",
+      "status": 200,
+      "final_url": "https://docs.github.com/en/actions",
+      "outcome": "ok"
+    },
+    {
+      "id": "delivery-02",
+      "url": "https://docs.github.com/en/actions/how-tos/secure-your-work",
+      "status": 200,
+      "final_url": "https://docs.github.com/en/actions/how-tos/secure-your-work",
+      "outcome": "ok"
+    },
+    {
+      "id": "delivery-03",
+      "url": "https://docs.gitlab.com/ci/",
+      "status": 200,
+      "final_url": "https://docs.gitlab.com/ci/",
+      "outcome": "ok"
+    },
+    {
+      "id": "delivery-04",
+      "url": "https://www.jenkins.io/doc/book/pipeline/",
+      "status": 200,
+      "final_url": "https://www.jenkins.io/doc/book/pipeline/",
+      "outcome": "ok"
+    },
+    {
+      "id": "delivery-05",
+      "url": "https://argo-cd.readthedocs.io/en/stable/",
+      "status": 200,
+      "final_url": "https://argo-cd.readthedocs.io/en/stable/",
+      "outcome": "ok"
+    },
+    {
+      "id": "delivery-06",
+      "url": "https://fluxcd.io/flux/",
+      "status": 200,
+      "final_url": "https://fluxcd.io/flux/",
+      "outcome": "ok"
+    },
+    {
+      "id": "delivery-07",
+      "url": "https://opengitops.dev/",
+      "status": 200,
+      "final_url": "https://opengitops.dev/",
+      "outcome": "ok"
+    },
+    {
+      "id": "delivery-08",
+      "url": "https://dora.dev/guides/",
+      "status": 200,
+      "final_url": "https://dora.dev/guides/",
+      "outcome": "ok"
+    },
+    {
+      "id": "delivery-09",
+      "url": "https://semver.org/",
+      "status": 200,
+      "final_url": "https://semver.org/",
+      "outcome": "ok"
+    },
+    {
+      "id": "observability-and-sre-01",
+      "url": "https://sre.google/books/",
+      "status": 200,
+      "final_url": "https://sre.google/books/",
+      "outcome": "ok"
+    },
+    {
+      "id": "observability-and-sre-02",
+      "url": "https://prometheus.io/docs/introduction/overview/",
+      "status": 200,
+      "final_url": "https://prometheus.io/docs/introduction/overview/",
+      "outcome": "ok"
+    },
+    {
+      "id": "observability-and-sre-03",
+      "url": "https://prometheus.io/docs/prometheus/latest/querying/basics/",
+      "status": 200,
+      "final_url": "https://prometheus.io/docs/prometheus/latest/querying/basics/",
+      "outcome": "ok"
+    },
+    {
+      "id": "observability-and-sre-04",
+      "url": "https://grafana.com/tutorials/",
+      "status": 200,
+      "final_url": "https://grafana.com/tutorials/",
+      "outcome": "ok"
+    },
+    {
+      "id": "observability-and-sre-05",
+      "url": "https://opentelemetry.io/docs/",
+      "status": 200,
+      "final_url": "https://opentelemetry.io/docs/",
+      "outcome": "ok"
+    },
+    {
+      "id": "observability-and-sre-06",
+      "url": "https://grafana.com/docs/loki/latest/",
+      "status": 200,
+      "final_url": "https://grafana.com/docs/loki/latest/",
+      "outcome": "ok"
+    },
+    {
+      "id": "observability-and-sre-07",
+      "url": "https://sre.google/sre-book/postmortem-culture/",
+      "status": 200,
+      "final_url": "https://sre.google/sre-book/postmortem-culture/",
+      "outcome": "ok"
+    },
+    {
+      "id": "observability-and-sre-08",
+      "url": "https://sre.google/sre-book/service-level-objectives/",
+      "status": 200,
+      "final_url": "https://sre.google/sre-book/service-level-objectives/",
+      "outcome": "ok"
+    },
+    {
+      "id": "observability-and-sre-09",
+      "url": "https://github.com/dastergon/awesome-sre",
+      "status": 200,
+      "final_url": "https://github.com/dastergon/awesome-sre",
+      "outcome": "ok"
+    },
+    {
+      "id": "security-and-cost-01",
+      "url": "https://cheatsheetseries.owasp.org/",
+      "status": 200,
+      "final_url": "https://cheatsheetseries.owasp.org/",
+      "outcome": "ok"
+    },
+    {
+      "id": "security-and-cost-02",
+      "url": "https://owasp.org/projects/top-ten",
+      "status": 200,
+      "final_url": "https://owasp.org/projects/top-ten",
+      "outcome": "ok"
+    },
+    {
+      "id": "security-and-cost-03",
+      "url": "https://trivy.dev/",
+      "status": 200,
+      "final_url": "https://trivy.dev/",
+      "outcome": "ok"
+    },
+    {
+      "id": "security-and-cost-04",
+      "url": "https://github.com/gitleaks/gitleaks",
+      "status": 200,
+      "final_url": "https://github.com/gitleaks/gitleaks",
+      "outcome": "ok"
+    },
+    {
+      "id": "security-and-cost-05",
+      "url": "https://github.com/getsops/sops",
+      "status": 200,
+      "final_url": "https://github.com/getsops/sops",
+      "outcome": "ok"
+    },
+    {
+      "id": "security-and-cost-06",
+      "url": "https://docs.sigstore.dev/cosign/",
+      "status": 200,
+      "final_url": "https://docs.sigstore.dev/cosign/",
+      "outcome": "ok"
+    },
+    {
+      "id": "security-and-cost-07",
+      "url": "https://slsa.dev/",
+      "status": 200,
+      "final_url": "https://slsa.dev/",
+      "outcome": "ok"
+    },
+    {
+      "id": "security-and-cost-08",
+      "url": "https://www.finops.org/framework/",
+      "status": 200,
+      "final_url": "https://www.finops.org/framework/",
+      "outcome": "ok"
+    },
+    {
+      "id": "security-and-cost-09",
+      "url": "https://opencost.io/docs/",
+      "status": 200,
+      "final_url": "https://opencost.io/docs/",
+      "outcome": "ok"
+    },
+    {
+      "id": "architecture-01",
+      "url": "https://github.com/donnemartin/system-design-primer",
+      "status": 200,
+      "final_url": "https://github.com/donnemartin/system-design-primer",
+      "outcome": "ok"
+    },
+    {
+      "id": "architecture-02",
+      "url": "https://builder.aws.com/learn/topics/builders-library",
+      "status": 200,
+      "final_url": "https://builder.aws.com/learn/topics/builders-library",
+      "outcome": "ok"
+    },
+    {
+      "id": "architecture-03",
+      "url": "https://redis.io/docs/latest/",
+      "status": 200,
+      "final_url": "https://redis.io/docs/latest/",
+      "outcome": "ok"
+    },
+    {
+      "id": "architecture-04",
+      "url": "https://www.postgresql.org/docs/current/tutorial.html",
+      "status": 200,
+      "final_url": "https://www.postgresql.org/docs/current/tutorial.html",
+      "outcome": "ok"
+    },
+    {
+      "id": "architecture-05",
+      "url": "https://www.rabbitmq.com/tutorials",
+      "status": 200,
+      "final_url": "https://www.rabbitmq.com/tutorials",
+      "outcome": "ok"
+    },
+    {
+      "id": "architecture-06",
+      "url": "https://kafka.apache.org/intro",
+      "status": 200,
+      "final_url": "https://kafka.apache.org/intro/",
+      "outcome": "ok"
+    },
+    {
+      "id": "architecture-07",
+      "url": "https://docs.cloud.google.com/architecture/framework",
+      "status": 200,
+      "final_url": "https://docs.cloud.google.com/architecture/framework",
+      "outcome": "ok"
+    },
+    {
+      "id": "engineering-blogs-01",
+      "url": "https://blog.cloudflare.com/",
+      "status": 200,
+      "final_url": "https://blog.cloudflare.com/",
+      "outcome": "ok"
+    },
+    {
+      "id": "engineering-blogs-02",
+      "url": "https://netflixtechblog.com/",
+      "status": 403,
+      "outcome": "review",
+      "detail": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "engineering-blogs-03",
+      "url": "https://research.google/blog/",
+      "status": 200,
+      "final_url": "https://research.google/blog/",
+      "outcome": "ok"
+    },
+    {
+      "id": "engineering-blogs-04",
+      "url": "https://cloud.google.com/blog/",
+      "status": 200,
+      "final_url": "https://cloud.google.com/blog/",
+      "outcome": "ok"
+    },
+    {
+      "id": "engineering-blogs-05",
+      "url": "https://aws.amazon.com/blogs/architecture/",
+      "status": 200,
+      "final_url": "https://aws.amazon.com/blogs/architecture/",
+      "outcome": "ok"
+    },
+    {
+      "id": "engineering-blogs-06",
+      "url": "https://github.blog/engineering/",
+      "status": 200,
+      "final_url": "https://github.blog/engineering/",
+      "outcome": "ok"
+    },
+    {
+      "id": "engineering-blogs-07",
+      "url": "https://www.uber.com/us/en/blog/engineering/",
+      "status": 200,
+      "final_url": "https://www.uber.com/us/en/blog/engineering/",
+      "outcome": "ok"
+    },
+    {
+      "id": "engineering-blogs-08",
+      "url": "https://stripe.dev/blog/topic/engineering",
+      "status": 200,
+      "final_url": "https://stripe.dev/blog/topic/engineering",
+      "outcome": "ok"
+    },
+    {
+      "id": "engineering-blogs-09",
+      "url": "https://slack.engineering/",
+      "status": 200,
+      "final_url": "https://slack.engineering/",
+      "outcome": "ok"
+    },
+    {
+      "id": "engineering-blogs-10",
+      "url": "https://discord.com/category/engineering",
+      "status": 200,
+      "final_url": "https://discord.com/category/engineering",
+      "outcome": "ok"
+    },
+    {
+      "id": "outage-stories-01",
+      "url": "https://blog.cloudflare.com/cloudflare-outage-on-june-21-2022/",
+      "status": 200,
+      "final_url": "https://blog.cloudflare.com/cloudflare-outage-on-june-21-2022/",
+      "outcome": "ok"
+    },
+    {
+      "id": "outage-stories-02",
+      "url": "https://github.blog/news-insights/company-news/oct21-post-incident-analysis/",
+      "status": 200,
+      "final_url": "https://github.blog/news-insights/company-news/oct21-post-incident-analysis/",
+      "outcome": "ok"
+    },
+    {
+      "id": "outage-stories-03",
+      "url": "https://about.gitlab.com/blog/gitlab-dot-com-database-incident/",
+      "status": 200,
+      "final_url": "https://about.gitlab.com/blog/gitlab-dot-com-database-incident/",
+      "outcome": "ok"
+    },
+    {
+      "id": "outage-stories-04",
+      "url": "https://blog.cloudflare.com/details-of-the-cloudflare-outage-on-july-2-2019/",
+      "status": 200,
+      "final_url": "https://blog.cloudflare.com/details-of-the-cloudflare-outage-on-july-2-2019/",
+      "outcome": "ok"
+    },
+    {
+      "id": "outage-stories-05",
+      "url": "https://aws.amazon.com/message/41926/",
+      "status": 200,
+      "final_url": "https://aws.amazon.com/message/41926/",
+      "outcome": "ok"
+    },
+    {
+      "id": "outage-stories-06",
+      "url": "https://status.cloud.google.com/",
+      "status": 200,
+      "final_url": "https://status.cloud.google.com/",
+      "outcome": "ok"
+    },
+    {
+      "id": "outage-stories-07",
+      "url": "https://github.blog/tag/availability/",
+      "status": 200,
+      "final_url": "https://github.blog/tag/availability/",
+      "outcome": "ok"
+    },
+    {
+      "id": "papers-01",
+      "url": "https://research.google/pubs/the-google-file-system/",
+      "status": 200,
+      "final_url": "https://research.google/pubs/the-google-file-system/",
+      "outcome": "ok"
+    },
+    {
+      "id": "papers-02",
+      "url": "https://research.google/pubs/mapreduce-simplified-data-processing-on-large-clusters/",
+      "status": 200,
+      "final_url": "https://research.google/pubs/mapreduce-simplified-data-processing-on-large-clusters/",
+      "outcome": "ok"
+    },
+    {
+      "id": "papers-03",
+      "url": "https://research.google/pubs/large-scale-cluster-management-at-google-with-borg/",
+      "status": 200,
+      "final_url": "https://research.google/pubs/large-scale-cluster-management-at-google-with-borg/",
+      "outcome": "ok"
+    },
+    {
+      "id": "papers-04",
+      "url": "https://raft.github.io/",
+      "status": 200,
+      "final_url": "https://raft.github.io/",
+      "outcome": "ok"
+    },
+    {
+      "id": "papers-05",
+      "url": "https://lamport.azurewebsites.net/pubs/time-clocks.pdf",
+      "status": 200,
+      "final_url": "https://lamport.azurewebsites.net/pubs/time-clocks.pdf",
+      "outcome": "ok"
+    },
+    {
+      "id": "papers-06",
+      "url": "https://arxiv.org/abs/1706.03762",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/1706.03762",
+      "outcome": "ok"
+    },
+    {
+      "id": "papers-07",
+      "url": "https://arxiv.org/abs/2210.03629",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2210.03629",
+      "outcome": "ok"
+    },
+    {
+      "id": "open-source-and-people-01",
+      "url": "https://opensource.guide/how-to-contribute/",
+      "status": 200,
+      "final_url": "https://opensource.guide/how-to-contribute/",
+      "outcome": "ok"
+    },
+    {
+      "id": "open-source-and-people-02",
+      "url": "https://goodfirstissue.dev/",
+      "status": 200,
+      "final_url": "https://goodfirstissue.dev/",
+      "outcome": "ok"
+    },
+    {
+      "id": "open-source-and-people-03",
+      "url": "https://github.com/bregman-arie/devops-exercises",
+      "status": 200,
+      "final_url": "https://github.com/bregman-arie/devops-exercises",
+      "outcome": "ok"
+    },
+    {
+      "id": "open-source-and-people-04",
+      "url": "https://github.com/MichaelCade/90DaysOfDevOps",
+      "status": 200,
+      "final_url": "https://github.com/MichaelCade/90DaysOfDevOps",
+      "outcome": "ok"
+    },
+    {
+      "id": "open-source-and-people-05",
+      "url": "https://github.com/milanm/DevOps-Roadmap",
+      "status": 200,
+      "final_url": "https://github.com/milanm/DevOps-Roadmap",
+      "outcome": "ok"
+    },
+    {
+      "id": "open-source-and-people-06",
+      "url": "https://roadmap.sh/devops",
+      "status": 200,
+      "final_url": "https://roadmap.sh/devops",
+      "outcome": "ok"
+    },
+    {
+      "id": "open-source-and-people-07",
+      "url": "https://github.com/wmariuss/awesome-devops",
+      "status": 200,
+      "final_url": "https://github.com/wmariuss/awesome-devops",
+      "outcome": "ok"
+    },
+    {
+      "id": "open-source-and-people-08",
+      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+      "status": 200,
+      "final_url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+      "outcome": "ok"
+    },
+    {
+      "id": "open-source-and-people-09",
+      "url": "https://jvns.ca/",
+      "status": 200,
+      "final_url": "https://jvns.ca/",
+      "outcome": "ok"
+    },
+    {
+      "id": "open-source-and-people-10",
+      "url": "https://www.brendangregg.com/",
+      "status": 200,
+      "final_url": "https://www.brendangregg.com/",
+      "outcome": "ok"
+    },
+    {
+      "id": "open-source-and-people-11",
+      "url": "https://charity.wtf/",
+      "status": 200,
+      "final_url": "https://charity.wtf/",
+      "outcome": "ok"
+    },
+    {
+      "id": "open-source-and-people-12",
+      "url": "https://martinfowler.com/",
+      "status": 200,
+      "final_url": "https://martinfowler.com/",
+      "outcome": "ok"
+    },
+    {
+      "id": "open-source-and-people-13",
+      "url": "https://github.com/kelseyhightower",
+      "status": 200,
+      "final_url": "https://github.com/kelseyhightower",
+      "outcome": "ok"
+    },
+    {
+      "id": "open-source-and-people-14",
+      "url": "https://lizthegrey.com/",
+      "status": 200,
+      "final_url": "https://lizthegrey.com/",
+      "outcome": "ok"
+    },
+    {
+      "id": "open-source-and-people-15",
+      "url": "https://github.com/NotHarshhaa/devops-cheatsheet",
+      "status": 200,
+      "final_url": "https://github.com/NotHarshhaa/devops-cheatsheet",
+      "outcome": "ok"
+    },
+    {
+      "id": "open-source-and-people-16",
+      "url": "https://github.com/NotHarshhaa/devops-tools",
+      "status": 200,
+      "final_url": "https://github.com/NotHarshhaa/devops-tools",
+      "outcome": "ok"
+    },
+    {
+      "id": "open-source-and-people-17",
+      "url": "https://github.com/NotHarshhaa/DevOps-Interview-Questions",
+      "status": 200,
+      "final_url": "https://github.com/NotHarshhaa/DevOps-Interview-Questions",
+      "outcome": "ok"
+    },
+    {
+      "id": "community-projects-01",
+      "url": "https://github.com/techiescamp/devops-projects",
+      "status": 200,
+      "final_url": "https://github.com/techiescamp/devops-projects",
+      "outcome": "ok"
+    },
+    {
+      "id": "community-projects-02",
+      "url": "https://github.com/prashantgohel321/DevOps-Project-Two-Tier-Flask-App",
+      "status": 200,
+      "final_url": "https://github.com/prashantgohel321/DevOps-Project-Two-Tier-Flask-App",
+      "outcome": "ok"
+    },
+    {
+      "id": "community-projects-03",
+      "url": "https://github.com/LondheShubham153/three-tier-eks-iac",
+      "status": 200,
+      "final_url": "https://github.com/LondheShubham153/three-tier-eks-iac",
+      "outcome": "ok"
+    },
+    {
+      "id": "infrastructure-as-code-09",
+      "url": "https://github.com/piyushsachdeva/Terraform-Full-Course-Azure",
+      "status": 200,
+      "final_url": "https://github.com/piyushsachdeva/Terraform-Full-Course-Azure",
+      "outcome": "ok"
+    },
+    {
+      "id": "infrastructure-as-code-10",
+      "url": "https://github.com/piyushsachdeva/Terraform-Full-Course-Aws",
+      "status": 200,
+      "final_url": "https://github.com/piyushsachdeva/Terraform-Full-Course-Aws",
+      "outcome": "ok"
+    },
+    {
+      "id": "infrastructure-as-code-11",
+      "url": "https://github.com/palakbhawsar98/Terraform-Notes",
+      "status": 200,
+      "final_url": "https://github.com/palakbhawsar98/Terraform-Notes",
+      "outcome": "ok"
+    },
+    {
+      "id": "containers-12",
+      "url": "https://github.com/LondheShubham153/kubestarter",
+      "status": 200,
+      "final_url": "https://github.com/LondheShubham153/kubestarter",
+      "outcome": "ok"
+    },
+    {
+      "id": "community-projects-04",
+      "url": "https://github.com/ChimbuChinnadurai/gcp-keda-gke-event-driven-autoscaling-demo",
+      "status": 200,
+      "final_url": "https://github.com/ChimbuChinnadurai/gcp-keda-gke-event-driven-autoscaling-demo",
+      "outcome": "ok"
+    },
+    {
+      "id": "ai-and-mlops-01",
+      "url": "https://github.com/iam-veeramalla/ai-assisted-devops",
+      "status": 200,
+      "final_url": "https://github.com/iam-veeramalla/ai-assisted-devops",
+      "outcome": "ok"
+    },
+    {
+      "id": "ai-and-mlops-02",
+      "url": "https://github.com/iam-veeramalla/first-mlops-project",
+      "status": 200,
+      "final_url": "https://github.com/iam-veeramalla/first-mlops-project",
+      "outcome": "ok"
+    },
+    {
+      "id": "containers-13",
+      "url": "https://github.com/meshery/meshery",
+      "status": 200,
+      "final_url": "https://github.com/meshery/meshery",
+      "outcome": "ok"
+    },
+    {
+      "id": "observability-and-sre-10",
+      "url": "https://github.com/litmuschaos/litmus",
+      "status": 200,
+      "final_url": "https://github.com/litmuschaos/litmus",
+      "outcome": "ok"
+    },
+    {
+      "id": "architecture-08",
+      "url": "https://github.com/ashishps1/awesome-system-design-resources",
+      "status": 200,
+      "final_url": "https://github.com/ashishps1/awesome-system-design-resources",
+      "outcome": "ok"
+    },
+    {
+      "id": "architecture-09",
+      "url": "https://github.com/subhashchy/The-Accidental-CTO",
+      "status": 200,
+      "final_url": "https://github.com/subhashchy/The-Accidental-CTO",
+      "outcome": "ok"
+    },
+    {
+      "id": "observability-and-sre-11",
+      "url": "https://github.com/pinojs/pino",
+      "status": 200,
+      "final_url": "https://github.com/pinojs/pino",
+      "outcome": "ok"
+    },
+    {
+      "id": "containers-14",
+      "url": "https://github.com/komodorio/helm-dashboard",
+      "status": 200,
+      "final_url": "https://github.com/komodorio/helm-dashboard",
+      "outcome": "ok"
+    },
+    {
+      "id": "ai-and-mlops-03",
+      "url": "https://github.com/aishwaryanr/awesome-generative-ai-guide",
+      "status": 200,
+      "final_url": "https://github.com/aishwaryanr/awesome-generative-ai-guide",
+      "outcome": "ok"
+    },
+    {
+      "id": "open-source-and-people-18",
+      "url": "https://github.com/chatwoot/chatwoot",
+      "status": 200,
+      "final_url": "https://github.com/chatwoot/chatwoot",
+      "outcome": "ok"
+    },
+    {
+      "id": "architecture-10",
+      "url": "https://github.com/apache/spark",
+      "status": 200,
+      "final_url": "https://github.com/apache/spark",
+      "outcome": "ok"
+    }
+  ]
+}
